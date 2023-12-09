@@ -3,6 +3,24 @@ import Navbar from '@/src/components/Navbar';
 
 import { getApiLimitCount } from '@/src/lib/apiLimits';
 import { checkSubscription } from '@/src/lib/subscription';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Magus - Dashboard',
+  description:
+    'Explore the powerful dashboard of Magus AI. Access intelligent chat, image generation, video creation, music composition, and code generation tools. Elevate your creative journey with Magus.',
+  openGraph: {
+    title: 'Magus - Dashboard',
+    description:
+      'Explore the powerful dashboard of Magus AI. Access intelligent chat, image generation, video creation, music composition, and code generation tools. Elevate your creative journey with Magus.',
+    url: 'https://magus.vercel.app/dashboard',
+  },
+  twitter: {
+    title: 'Magus - Dashboard',
+    description:
+      'Explore the powerful dashboard of Magus AI. Access intelligent chat, image generation, video creation, music composition, and code generation tools. Elevate your creative journey with Magus.',
+  },
+};
 
 export default async function DashboardLayout({
   children,

@@ -37,7 +37,7 @@ export default function LandingHero() {
             variant='premium'
             className='md:text-lg p-4 md:p-6 rounded-full font-semibold'
           >
-            Start Generation For Free
+            {isSignedIn ? 'Go To Dashboard' : 'Start Generation For Free'}
           </Button>
         </Link>
       </div>

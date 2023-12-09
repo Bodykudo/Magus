@@ -1,7 +1,20 @@
+import { Metadata } from 'next';
 import { Settings } from 'lucide-react';
+
 import Heading from '@/src/components/Heading';
 import SubscriptionButton from '@/src/components/SubscriptionButton';
 import { checkSubscription } from '@/src/lib/subscription';
+
+export const metadata: Metadata = {
+  title: 'Magus - Settings',
+  openGraph: {
+    title: 'Magus - Settings',
+    url: 'https://magus.vercel.app/settings',
+  },
+  twitter: {
+    title: 'Magus - Settings',
+  },
+};
 
 export default async function SettingsPage() {
   const isPro = await checkSubscription();

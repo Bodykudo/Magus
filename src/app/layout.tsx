@@ -11,8 +11,34 @@ import CrispProvider from '@/src/components/CrispProvider';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Magus',
-  description: 'AI Platform',
+  title: 'Magus - AI Platform',
+  description:
+    'Magus: Unleash the power of AI magic! Chat with an intelligent assistant, generate images, videos, music, and code effortlessly. Magus is your ultimate AI magician, offering a myriad of tools to enhance your creative and problem-solving capabilities.',
+  authors: { name: 'Abdallah Magdy' },
+  keywords: [
+    'AI Platform',
+    'Chatbot',
+    'Image Generation',
+    'Video Generation',
+    'Code Generation',
+    'Music Generation',
+  ],
+  openGraph: {
+    title: 'Magus',
+    type: 'website',
+    images: ['/mockup.png'],
+    url: 'https://magus.vercel.app/',
+    description:
+      'Magus: Unleash the power of AI magic! Chat with an intelligent assistant, generate images, videos, music, and code effortlessly. Magus is your ultimate AI magician, offering a myriad of tools to enhance your creative and problem-solving capabilities.',
+  },
+  twitter: {
+    title: 'Magus',
+    description:
+      'Magus: Unleash the power of AI magic! Chat with an intelligent assistant, generate images, videos, music, and code effortlessly. Magus is your ultimate AI magician, offering a myriad of tools to enhance your creative and problem-solving capabilities.',
+    card: 'summary_large_image',
+    creator: 'a_m_s666',
+    images: ['/mockup.png'],
+  },
 };
 
 export default function RootLayout({
