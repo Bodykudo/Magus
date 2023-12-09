@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     title: 'Magus',
     type: 'website',
     images: ['/mockup.png'],
-    url: 'https://magus.vercel.app/',
+    url: 'https://magus-ai.vercel.app/',
     description:
       'Magus: Unleash the power of AI magic! Chat with an intelligent assistant, generate images, videos, music, and code effortlessly. Magus is your ultimate AI magician, offering a myriad of tools to enhance your creative and problem-solving capabilities.',
   },

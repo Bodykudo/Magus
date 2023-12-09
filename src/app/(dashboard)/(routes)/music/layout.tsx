@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: 'Magus - Music Generation',
     description:
       'Compose enchanting melodies and tunes with Magus AI. Unleash the power of AI-driven music generation to create harmonious soundscapes. Let Magus be your musical companion.',
-    url: 'https://magus.vercel.app/music',
+    url: 'https://magus-ai.vercel.app/music',
   },
   twitter: {
     title: 'Magus - Music Generation',

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     title: 'Magus - Dashboard',
     description:
       'Explore the powerful dashboard of Magus AI. Access intelligent chat, image generation, video creation, music composition, and code generation tools. Elevate your creative journey with Magus.',
-    url: 'https://magus.vercel.app/dashboard',
+    url: 'https://magus-ai.vercel.app/dashboard',
   },
   twitter: {
     title: 'Magus - Dashboard',
