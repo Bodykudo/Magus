@@ -4,9 +4,9 @@ import { ClerkProvider } from '@clerk/nextjs';
 
 import './globals.css';
 
-import ToasterProvider from '@/src/components/ToasterProvider';
-import ModalProvider from '@/src/components/ModalProvider';
-import CrispProvider from '@/src/components/CrispProvider';
+import ToasterProvider from '@/components/ToasterProvider';
+import ModalProvider from '@/components/ModalProvider';
+import CrispProvider from '@/components/CrispProvider';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Magus',
     type: 'website',
-    images: ['/mockup.png'],
+    images: ['https://magus-ai.vercel.app/mockup.png'],
     url: 'https://magus-ai.vercel.app/',
     description:
       'Magus: Unleash the power of AI magic! Chat with an intelligent assistant, generate images, videos, music, and code effortlessly. Magus is your ultimate AI magician, offering a myriad of tools to enhance your creative and problem-solving capabilities.',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
       'Magus: Unleash the power of AI magic! Chat with an intelligent assistant, generate images, videos, music, and code effortlessly. Magus is your ultimate AI magician, offering a myriad of tools to enhance your creative and problem-solving capabilities.',
     card: 'summary_large_image',
     creator: 'a_m_s666',
-    images: ['/mockup.png'],
+    images: ['https://magus-ai.vercel.app/mockup.png'],
   },
 };
 

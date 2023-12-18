@@ -16,10 +16,10 @@ import {
 import { Badge } from './ui/badge';
 import { Card } from './ui/card';
 import { Button } from './ui/button';
-import { useProModal } from '@/src/hooks/useProModal';
+import { useProModal } from '@/hooks/useProModal';
 
-import { cn } from '@/src/lib/utils';
-import { tools } from '@/src/constants';
+import { cn } from '@/lib/utils';
+import { tools } from '@/constants';
 
 export default function ProModal() {
   const proModal = useProModal();

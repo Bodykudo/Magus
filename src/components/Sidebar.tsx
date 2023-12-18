@@ -1,6 +1,6 @@
 'use client';
 
-import { cn } from '@/src/lib/utils';
+import { cn } from '@/lib/utils';
 import { Montserrat } from 'next/font/google';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -15,7 +15,7 @@ import {
 } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 import FreeCounter from './FreeCounter';
-import { tools } from '@/src/constants';
+import { tools } from '@/constants';
 
 const montserrate = Montserrat({ weight: '600', subsets: ['latin'] });
 

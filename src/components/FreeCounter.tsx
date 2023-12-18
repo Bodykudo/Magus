@@ -6,8 +6,8 @@ import { Zap } from 'lucide-react';
 import { Button } from './ui/button';
 import { Card, CardContent } from './ui/card';
 import { Progress } from './ui/progress';
-import { useProModal } from '@/src/hooks/useProModal';
-import { MAX_FREE_COUNTS } from '@/src/constants';
+import { useProModal } from '@/hooks/useProModal';
+import { MAX_FREE_COUNTS } from '@/constants';
 
 interface FreeCounterProps {
   apiLimitCount?: number;

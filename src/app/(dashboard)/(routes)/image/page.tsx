@@ -12,26 +12,21 @@ import { Download, ImageIcon } from 'lucide-react';
 
 import { amountOptions, formSchema, resolutionOptions } from './constants';
 
-import {
-  Form,
-  FormControl,
-  FormField,
-  FormItem,
-} from '@/src/components/ui/form';
+import { Form, FormControl, FormField, FormItem } from '@/components/ui/form';
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@/src/components/ui/select';
-import { Card, CardFooter } from '@/src/components/ui/card';
-import { Input } from '@/src/components/ui/input';
-import { Button } from '@/src/components/ui/button';
-import { Empty } from '@/src/components/Empty';
-import Heading from '@/src/components/Heading';
-import { Loader } from '@/src/components/Loader';
-import { useProModal } from '@/src/hooks/useProModal';
+} from '@/components/ui/select';
+import { Card, CardFooter } from '@/components/ui/card';
+import { Input } from '@/components/ui/input';
+import { Button } from '@/components/ui/button';
+import { Empty } from '@/components/Empty';
+import Heading from '@/components/Heading';
+import { Loader } from '@/components/Loader';
+import { useProModal } from '@/hooks/useProModal';
 
 export default function ImagePage() {
   const router = useRouter();

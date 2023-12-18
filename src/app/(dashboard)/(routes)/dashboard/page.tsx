@@ -2,10 +2,10 @@
 
 import { useRouter } from 'next/navigation';
 import { ArrowRight } from 'lucide-react';
-import { Card } from '@/src/components/ui/card';
+import { Card } from '@/components/ui/card';
 
-import { tools } from '@/src/constants';
-import { cn } from '@/src/lib/utils';
+import { tools } from '@/constants';
+import { cn } from '@/lib/utils';
 
 export default function DashboardPage() {
   const router = useRouter();

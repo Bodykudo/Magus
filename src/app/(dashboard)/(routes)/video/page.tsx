@@ -11,18 +11,13 @@ import { VideoIcon } from 'lucide-react';
 
 import { formSchema } from './constants';
 
-import {
-  Form,
-  FormControl,
-  FormField,
-  FormItem,
-} from '@/src/components/ui/form';
-import { Input } from '@/src/components/ui/input';
-import { Button } from '@/src/components/ui/button';
-import { Empty } from '@/src/components/Empty';
-import Heading from '@/src/components/Heading';
-import { Loader } from '@/src/components/Loader';
-import { useProModal } from '@/src/hooks/useProModal';
+import { Form, FormControl, FormField, FormItem } from '@/components/ui/form';
+import { Input } from '@/components/ui/input';
+import { Button } from '@/components/ui/button';
+import { Empty } from '@/components/Empty';
+import Heading from '@/components/Heading';
+import { Loader } from '@/components/Loader';
+import { useProModal } from '@/hooks/useProModal';
 
 export default function VideoPage() {
   const router = useRouter();

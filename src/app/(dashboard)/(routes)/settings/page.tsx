@@ -1,9 +1,9 @@
 import { Metadata } from 'next';
 import { Settings } from 'lucide-react';
 
-import Heading from '@/src/components/Heading';
-import SubscriptionButton from '@/src/components/SubscriptionButton';
-import { checkSubscription } from '@/src/lib/subscription';
+import Heading from '@/components/Heading';
+import SubscriptionButton from '@/components/SubscriptionButton';
+import { checkSubscription } from '@/lib/subscription';
 
 export const metadata: Metadata = {
   title: 'Magus - Settings',

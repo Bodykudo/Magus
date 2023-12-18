@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useAuth } from '@clerk/nextjs';
 import TypewriterComponent from 'typewriter-effect';
-import { Button } from '@/src/components/ui/button';
+import { Button } from '@/components/ui/button';
 
 export default function LandingHero() {
   const { isSignedIn } = useAuth();

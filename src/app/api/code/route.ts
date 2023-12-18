@@ -3,8 +3,8 @@ import { auth } from '@clerk/nextjs';
 import OpenAI from 'openai';
 import { ChatCompletionMessageParam } from 'openai/resources/index.mjs';
 
-import { checkApiLimit, increaseApiLimits } from '@/src/lib/apiLimits';
-import { checkSubscription } from '@/src/lib/subscription';
+import { checkApiLimit, increaseApiLimits } from '@/lib/apiLimits';
+import { checkSubscription } from '@/lib/subscription';
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,

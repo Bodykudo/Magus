@@ -1,8 +1,8 @@
-import Sidebar from '@/src/components/Sidebar';
-import Navbar from '@/src/components/Navbar';
+import Sidebar from '@/components/Sidebar';
+import Navbar from '@/components/Navbar';
 
-import { getApiLimitCount } from '@/src/lib/apiLimits';
-import { checkSubscription } from '@/src/lib/subscription';
+import { getApiLimitCount } from '@/lib/apiLimits';
+import { checkSubscription } from '@/lib/subscription';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

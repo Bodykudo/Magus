@@ -5,8 +5,8 @@ import Link from 'next/link';
 import { Montserrat } from 'next/font/google';
 import { useAuth } from '@clerk/nextjs';
 
-import { Button } from '@/src//components/ui/button';
-import { cn } from '@/src/lib/utils';
+import { Button } from '@//components/ui/button';
+import { cn } from '@/lib/utils';
 
 const font = Montserrat({
   weight: '600',

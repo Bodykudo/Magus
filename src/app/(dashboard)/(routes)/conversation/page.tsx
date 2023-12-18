@@ -12,22 +12,17 @@ import { MessageSquare } from 'lucide-react';
 
 import { formSchema } from './constants';
 
-import {
-  Form,
-  FormControl,
-  FormField,
-  FormItem,
-} from '@/src/components/ui/form';
-import { Input } from '@/src/components/ui/input';
-import { Button } from '@/src/components/ui/button';
-import { Empty } from '@/src/components/Empty';
-import Heading from '@/src/components/Heading';
-import UserAvatar from '@/src/components/UserAvatar';
-import BotAvatar from '@/src/components/BotAvatar';
-import { Loader } from '@/src/components/Loader';
+import { Form, FormControl, FormField, FormItem } from '@/components/ui/form';
+import { Input } from '@/components/ui/input';
+import { Button } from '@/components/ui/button';
+import { Empty } from '@/components/Empty';
+import Heading from '@/components/Heading';
+import UserAvatar from '@/components/UserAvatar';
+import BotAvatar from '@/components/BotAvatar';
+import { Loader } from '@/components/Loader';
 
-import { useProModal } from '@/src/hooks/useProModal';
-import { cn } from '@/src/lib/utils';
+import { useProModal } from '@/hooks/useProModal';
+import { cn } from '@/lib/utils';
 
 export default function ConversationPage() {
   const router = useRouter();
