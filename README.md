@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <img src="public/logo-dark.png" height="200px" />
+</div>
 
-## Getting Started
+# Magus
 
-First, run the development server:
+Magus: Unleash the power of AI magic! Chat with an intelligent assistant, generate images, videos, music, and code effortlessly. Magus is your ultimate AI magician, offering a myriad of tools to enhance your creative and problem-solving capabilities.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Demo
+
+Magus is deployed to Vercel. You can try it on the following URL: [magus-ai.vercel.app](https://magus-ai.vercel.app/).
+
+<div align="center">
+  <img src="public/mockup.png" />
+</div>
+
+## Technologies Used
+
+- React.js
+- Next.js
+- TypeScript
+- OpenAI API
+- Replicate
+- Prisma
+- Clerk
+- Tailwind
+- Shadcn/UI
+- React Hook Form
+- Zustand
+
+## Installation
+
+To install and run Magus locally, follow these steps:
+
+1. Clone the project repository.
+
+2. Install the necessary dependencies by running the following command:
+
+```
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Replace the environment variables with your own API keys and database URL.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. Push tables to your database
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+npx prisma db push
+```
 
-## Learn More
+5. Generate prisma client
 
-To learn more about Next.js, take a look at the following resources:
+```
+npx prisma generate
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+6. Run the project by executing the following command:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```
+npm run dev
+```
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+7. Access the application by visintg http://localhost:3000/
