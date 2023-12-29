@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: 'Magus - Image Generation',
     description:
       'Harness the magic of image generation with Magus AI. Create stunning visuals, artworks, and designs effortlessly. Let Magus transform your ideas into captivating images.',
-    url: 'https://magus-ai.vercel.app/image',
+    url: `${process.env.NEXT_PUBLIC_APP_URL}/image`,
   },
   twitter: {
     title: 'Magus - Image Generation',

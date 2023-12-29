@@ -31,8 +31,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Magus',
     type: 'website',
-    images: ['https://magus-ai.vercel.app/mockup.png'],
-    url: 'https://magus-ai.vercel.app/',
+    images: [`${process.env.NEXT_PUBLIC_APP_URL}/mockup.png`],
+    url: process.env.NEXT_PUBLIC_APP_URL,
     description:
       'Magus: Unleash the power of AI magic! Chat with an intelligent assistant, generate images, videos, music, and code effortlessly. Magus is your ultimate AI magician, offering a myriad of tools to enhance your creative and problem-solving capabilities.',
   },
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
       'Magus: Unleash the power of AI magic! Chat with an intelligent assistant, generate images, videos, music, and code effortlessly. Magus is your ultimate AI magician, offering a myriad of tools to enhance your creative and problem-solving capabilities.',
     card: 'summary_large_image',
     creator: 'a_m_s666',
-    images: ['https://magus-ai.vercel.app/mockup.png'],
+    images: [`${process.env.NEXT_PUBLIC_APP_URL}/mockup.png`],
   },
   viewport:
     'minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover',

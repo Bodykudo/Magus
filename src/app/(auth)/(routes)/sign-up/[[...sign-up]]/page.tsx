@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Magus - Sign Up',
   openGraph: {
     title: 'Magus - Sign Up',
-    url: 'https://magus-ai.vercel.app/sign-up',
+    url: `${process.env.NEXT_PUBLIC_APP_URL}/sign-up`,
   },
   twitter: {
     title: 'Magus - Sign Up',

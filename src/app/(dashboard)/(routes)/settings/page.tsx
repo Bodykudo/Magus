@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Magus - Settings',
   openGraph: {
     title: 'Magus - Settings',
-    url: 'https://magus-ai.vercel.app/settings',
+    url: `${process.env.NEXT_PUBLIC_APP_URL}/settings`,
   },
   twitter: {
     title: 'Magus - Settings',
